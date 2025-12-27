@@ -1,4 +1,6 @@
 import sys
+import warnings
+warnings.filterwarnings("ignore")
 
 from us_visa.exception import USvisaException
 from us_visa.logger import logging
